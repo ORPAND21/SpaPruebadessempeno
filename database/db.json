@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "pro0",
+      "created": "2025-07-14T04:00:00.000Z",
+      "id": "1"
+    },
+    {
+      "username": "kelmin",
+      "password": "pro",
+      "created": "hoy",
+      "id": "2"
+    },
+    {
+      "id": "7a5b",
+      "username": "papa",
+      "password": "150",
+      "created": "2025-07-14T16:58:22.743Z",
+      "role": "user"
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "name": "admin"
+    },
+    {
+      "id": "2",
+      "name": "user"
+    }
+  ],
+  "events": [
+    {
+      "id": "e1",
+      "tible": "Conferencia de IA",
+      "date": "2025-09.0500",
+      "location": "Auditorio Principal",
+      "capacity": 50,
+      "attendees": ""
+    },
+    {
+      "id": "e2",
+      "tible": "Taller de Desarrollo web",
+      "date": "2025-10-05",
+      "location": "sala de computo 3"
+    }
+  ]
+}
