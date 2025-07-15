@@ -1,0 +1,304 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #007bff;
+    padding: 8px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header a:hover {
+    background-color: #e9ecef;
+}
+
+/* Botones */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+button.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+button.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+button.btn-danger:hover {
+    background-color: #c82333;
+}
+
+button.btn-warning {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+button.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+button.btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+button.btn-success:hover {
+    background-color: #218838;
+}
+
+button.btn-info {
+    background-color: #17a2b8;
+    color: white;
+}
+
+button.btn-info:hover {
+    background-color: #138496;
+}
+
+button.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+button.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+a.btn-link {
+    background: none;
+    border: none;
+    color: #007bff;
+    text-decoration: underline;
+    padding: 0;
+    margin: 0;
+}
+
+a.btn-link:hover {
+    color: #0056b3;
+    background: none;
+}
+
+/* Formularios */
+form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="date"],
+form input[type="number"] {
+    width: calc(100% - 20px); /* Ajuste para padding */
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box; /* Incluye padding y borde en el ancho */
+}
+
+form button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden; /* Para bordes redondeados */
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+    border: 1px solid #dee2e6;
+    text-align: left;
+}
+
+table th {
+    background-color: #e9ecef;
+    font-weight: bold;
+    color: #495057;
+}
+
+table tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+table tr:hover {
+    background-color: #e2f0ff;
+}
+
+/* Mensajes y Secciones Específicas */
+h1, h2, h3, h4 {
+    color: #343a40;
+    margin-bottom: 15px;
+}
+
+p.lead {
+    font-size: 1.1em;
+    color: #555;
+}
+
+#welcomeMessage {
+    font-weight: bold;
+    color: #0056b3;
+}
+
+#adminLinks {
+    background-color: #e6f7ff;
+    border: 1px solid #b3e0ff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#adminLinks ul {
+    list-style: none;
+    padding: 0;
+}
+
+#adminLinks li {
+    margin-bottom: 10px;
+}
+
+#adminLinks a {
+    display: inline-block;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#eventsList div,
+#myRegistrations div {
+    background-color: #f0f8ff;
+    border: 1px solid #cceeff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#eventsList h4,
+#myRegistrations h4 {
+    margin-top: 0;
+    color: #0056b3;
+}
+
+#eventsList button,
+#myRegistrations button {
+    margin-top: 10px;
+}
+
+#edit-form-section {
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#edit-text {
+    color: #856404;
+    margin-bottom: 15px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #eee;
+    margin: 20px 0;
+}
+
+/* Estilos para not-found */
+.not-found-container {
+    text-align: center;
+    padding: 50px;
+}
+
+.not-found-container h1 {
+    font-size: 4em;
+    color: #dc3545;
+    margin-bottom: 10px;
+}
+
+.not-found-container h2 {
+    font-size: 2em;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.not-found-container p {
+    font-size: 1.2em;
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+
+.not-found-container a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}

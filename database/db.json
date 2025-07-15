@@ -1,22 +1,59 @@
 {
   "users": [
     {
+      "id": "1",
       "username": "admin",
-      "password": "pro0",
+      "password": "adminpassword",
       "created": "2025-07-14T04:00:00.000Z",
-      "id": "1"
+      "role": "admin"
     },
     {
+      "id": "2",
       "username": "kelmin",
-      "password": "pro",
+      "password": "123",
       "created": "hoy",
-      "id": "2"
+      "role": "user"
+    },
+    {
+      "id": "3",
+      "username": "alberoto",
+      "password": "12345",
+      "created": "2025-07-14T04:15:11.771Z",
+      "role": "user"
+    },
+    {
+      "id": "b82a",
+      "username": "orly",
+      "password": "56",
+      "created": "2025-07-14T15:32:21.620Z",
+      "role": "user"
+    },
+    {
+      "id": "a22f",
+      "username": "orly",
+      "password": "124",
+      "created": "2025-07-14T16:04:24.013Z",
+      "role": "user"
     },
     {
       "id": "7a5b",
       "username": "papa",
       "password": "150",
       "created": "2025-07-14T16:58:22.743Z",
+      "role": "user"
+    },
+    {
+      "id": "aec7",
+      "username": "1056708750",
+      "password": "41",
+      "created": "2025-07-14T17:22:00.105Z",
+      "role": "user"
+    },
+    {
+      "id": "88f4",
+      "username": "admin",
+      "password": "74",
+      "created": "2025-07-15T17:11:13.248Z",
       "role": "user"
     }
   ],
